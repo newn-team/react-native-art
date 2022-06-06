@@ -1,5 +1,5 @@
 {
-  "name": "@react-native-community/art",
+  "name": "@newn-team/react-native-art",
   "version": "1.2.0",
   "license": "MIT",
   "author": "@react-native-community",
@@ -20,6 +20,13 @@
     "flow-check": "flow check",
     "lint": "eslint . --cache",
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newn-team/react-native-art.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
     "art": "^0.10.3",
